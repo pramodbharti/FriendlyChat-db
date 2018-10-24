@@ -41,7 +41,17 @@ dependencies {
     // Displaying images
     implementation 'com.github.bumptech.glide:glide:4.7.1'
 
+    // Firebase core
     implementation 'com.google.firebase:firebase-core:16.0.4'
+
+    // Firebase realtime database
+    implementation 'com.google.firebase:firebase-database:16.0.3'
+
+    // Firebase auth
+    implementation "com.google.firebase:firebase-auth:16.0.5"
+
+    // Firebase ui auth
+    implementation 'com.firebaseui:firebase-ui-auth:4.2.1'
 }
 
 apply plugin: 'com.google.gms.google-services'
